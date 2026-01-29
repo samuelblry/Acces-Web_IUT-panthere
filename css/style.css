@@ -11,7 +11,11 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+}
+
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: 3px solid #F39C12 !important;
+    outline-offset: 2px;
 }
 
 a:hover {
